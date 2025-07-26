@@ -15258,6 +15258,21 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <text x="1.73" y="-2.178" size="1.016" layer="21" font="vector">A</text>
 <text x="-2.938" y="-2.178" size="1.016" layer="21" font="vector">K</text>
 </package>
+<package name="FIDUCIAL_1MM">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="POWERJACK-1">
@@ -15299,6 +15314,9 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <vertex x="-2.921" y="-2.413"/>
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
+</symbol>
+<symbol name="DOT">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -15672,6 +15690,20 @@ Source: http://www.osram.convergy.de/</description>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="K"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL" prefix="F">
+<description>For use by pick and place machines to calibrate the vision/machine, 1mm
+&lt;p&gt;By microbuilder.eu&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL_1MM">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -17538,12 +17570,16 @@ Source: http://www.maxim-ic.com/package_drawings/21-0041B.pdf</description>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="C9" library="resistor" deviceset="CPOL-EU" device="SMCC" value="10u"/>
 <part name="D3" library="diode" deviceset="ES2D" device=""/>
+<part name="F3" library="adafruit" deviceset="FIDUCIAL" device=""/>
+<part name="F2" library="adafruit" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="180.34" y="35.56" size="1.778" layer="91">occhio: questo e 1.25 ma dovrebbe andare lo stesso</text>
 <text x="177.8" y="2.54" size="1.778" layer="91">Fasttrax</text>
+<text x="40.64" y="43.18" size="1.778" layer="91">il regolatore non dovrebbe servire
+Neo modulo ha regolatore on board</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="50.8" y="20.32"/>
@@ -17597,6 +17633,8 @@ Source: http://www.maxim-ic.com/package_drawings/21-0041B.pdf</description>
 <instance part="+3V2" gate="G$1" x="106.68" y="78.74" rot="R270"/>
 <instance part="C9" gate="G$1" x="101.6" y="22.86"/>
 <instance part="D3" gate="G$1" x="58.42" y="27.94" rot="R90"/>
+<instance part="F3" gate="G$1" x="8.89" y="93.98" rot="R90"/>
+<instance part="F2" gate="G$1" x="8.89" y="81.28" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -17987,4 +18025,10 @@ Source: http://www.maxim-ic.com/package_drawings/21-0041B.pdf</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
