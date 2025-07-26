@@ -19107,6 +19107,277 @@ Based on the following sources:
 </deviceset>
 </devicesets>
 </library>
+<library name="holes">
+<description>&lt;b&gt;Mounting Holes and Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="2,8">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.8 mm with drill center</description>
+<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="2.921" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="1.5" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="2.8"/>
+</package>
+<package name="3,0">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.0 mm with drill center</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="1.6" width="0.2032" layer="21"/>
+<text x="-1.27" y="-3.81" size="1.27" layer="48">3,0</text>
+<hole x="0" y="0" drill="3"/>
+</package>
+<package name="3,3">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.3 mm with drill center</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.54" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.54" layer="40"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="1.75" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="3.3"/>
+</package>
+<package name="3,6">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.6 mm with drill center</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.7686" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.7686" layer="40"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="1.9" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="3.6"/>
+</package>
+<package name="4,1">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 4.1 mm with drill center</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="39"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="40"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="41"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="42"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="43"/>
+<circle x="0" y="0" radius="2.15" width="0.1524" layer="21"/>
+<hole x="0" y="0" drill="4.1"/>
+</package>
+<package name="4,5">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 4.5 mm with drill center</description>
+<wire x1="4.445" y1="0" x2="2.159" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="4.445" x2="0" y2="2.159" width="0.0508" layer="21"/>
+<wire x1="-2.159" y1="0" x2="-4.445" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="-2.159" x2="0" y2="-4.445" width="0.0508" layer="21"/>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="39"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="40"/>
+<circle x="0" y="0" radius="3.8184" width="2.54" layer="41"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="42"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="43"/>
+<circle x="0" y="0" radius="2.35" width="0.1524" layer="21"/>
+<text x="-1.27" y="-4.445" size="1.27" layer="48">4,5</text>
+<hole x="0" y="0" drill="4.5"/>
+</package>
+<package name="5,0">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 5.0 mm with drill center</description>
+<wire x1="4.445" y1="0" x2="2.159" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="4.445" x2="0" y2="2.159" width="0.0508" layer="21"/>
+<wire x1="-2.159" y1="0" x2="-4.445" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="-2.159" x2="0" y2="-4.445" width="0.0508" layer="21"/>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="39"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="40"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="43"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="42"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="41"/>
+<circle x="0" y="0" radius="2.6" width="0.1524" layer="21"/>
+<text x="-1.27" y="-4.445" size="1.27" layer="48">5,0</text>
+<hole x="0" y="0" drill="5"/>
+</package>
+<package name="3,2">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.2 mm with drill center</description>
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<circle x="0" y="0" radius="1.7" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="3.2"/>
+</package>
+<package name="4,3">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 4.3 mm with drill center</description>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="39"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="40"/>
+<circle x="0" y="0" radius="3.8184" width="2.54" layer="41"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="42"/>
+<circle x="0" y="0" radius="3.81" width="2.54" layer="43"/>
+<circle x="0" y="0" radius="2.25" width="0.1524" layer="21"/>
+<hole x="0" y="0" drill="4.3"/>
+</package>
+<package name="5,5">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 5.5 mm with drill center</description>
+<wire x1="4.445" y1="0" x2="2.159" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="4.445" x2="0" y2="2.159" width="0.0508" layer="21"/>
+<wire x1="-2.159" y1="0" x2="-4.445" y2="0" width="0.0508" layer="21"/>
+<wire x1="0" y1="-2.159" x2="0" y2="-4.445" width="0.0508" layer="21"/>
+<wire x1="-2.54" y1="0" x2="0" y2="-2.54" width="3.9116" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="0" width="3.9116" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="4.4958" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="39"/>
+<circle x="0" y="0" radius="4.699" width="4.5466" layer="40"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="43"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="42"/>
+<circle x="0" y="0" radius="4.826" width="2.54" layer="41"/>
+<circle x="0" y="0" radius="2.85" width="0.1524" layer="21"/>
+<hole x="0" y="0" drill="5.5"/>
+</package>
+<package name="2,0">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.0 mm with drill center</description>
+<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="2.921" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="1.2" width="0.5" layer="41"/>
+<circle x="0" y="0" radius="1.2" width="0.5" layer="42"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="1.5" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="2.8"/>
+</package>
+<package name="M3">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 2.8 mm with drill center</description>
+<wire x1="-1.778" y1="0" x2="0" y2="-1.778" width="2.286" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="1.778" x2="1.778" y2="0" width="2.286" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="0.635" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="2.921" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="1.7" width="0.6" layer="41"/>
+<circle x="0" y="0" radius="1.7" width="0.6" layer="42"/>
+<circle x="0" y="0" radius="2.54" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="1.5" width="0.2032" layer="21"/>
+<hole x="0" y="0" drill="2.8"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MOUNT-HOLE">
+<wire x1="0" y1="1.27" x2="1.27" y2="0" width="1.524" layer="94" curve="-90" cap="flat"/>
+<wire x1="-1.27" y1="0" x2="0" y2="-1.27" width="1.524" layer="94" curve="90" cap="flat"/>
+<wire x1="-0.508" y1="0" x2="0.508" y2="0" width="0.0508" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.0508" layer="94"/>
+<circle x="0" y="0" radius="2.032" width="0.0508" layer="94"/>
+<circle x="0" y="0" radius="0.508" width="0.0508" layer="94"/>
+<text x="2.032" y="0.5842" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.032" y="-2.4638" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MOUNT-HOLE" prefix="H">
+<description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; with drill center marker</description>
+<gates>
+<gate name="G$1" symbol="MOUNT-HOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="2.8" package="2,8">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.0" package="3,0">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.3" package="3,3">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.6" package="3,6">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4.1" package="4,1">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4.5" package="4,5">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5.0" package="5,0">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.2" package="3,2">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="4.3" package="4,3">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="5.5" package="5,5">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2.0" package="2,0">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M3" package="M3">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -19209,6 +19480,12 @@ Based on the following sources:
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="JMP2" library="jump-0r-smd" deviceset="0R-JUMP" device="C"/>
 <part name="JMP1" library="jump-0r-smd" deviceset="0R-JUMP" device="C"/>
+<part name="JP7" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP8" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP9" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="JP10" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="H1" library="holes" deviceset="MOUNT-HOLE" device="M3"/>
+<part name="H2" library="holes" deviceset="MOUNT-HOLE" device="M3"/>
 </parts>
 <sheets>
 <sheet>
@@ -19376,6 +19653,12 @@ IRQ 3/4</text>
 <instance part="JMP2" gate="G$2" x="132.08" y="154.94"/>
 <instance part="JMP1" gate="-0R" x="91.44" y="157.48"/>
 <instance part="JMP1" gate="G$2" x="88.9" y="160.02"/>
+<instance part="JP7" gate="G$1" x="251.46" y="121.92"/>
+<instance part="JP8" gate="G$1" x="251.46" y="116.84"/>
+<instance part="JP9" gate="G$1" x="251.46" y="111.76"/>
+<instance part="JP10" gate="G$1" x="251.46" y="106.68"/>
+<instance part="H1" gate="G$1" x="48.26" y="200.66"/>
+<instance part="H2" gate="G$1" x="68.58" y="200.66"/>
 </instances>
 <busses>
 </busses>
@@ -19900,6 +20183,11 @@ IRQ 3/4</text>
 <wire x1="180.34" y1="180.34" x2="170.18" y2="180.34" width="0.1524" layer="91"/>
 <label x="172.72" y="180.34" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JMP1" gate="-0R" pin="1"/>
+<wire x1="91.44" y1="160.02" x2="76.2" y2="160.02" width="0.1524" layer="91"/>
+<label x="78.74" y="160.02" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="BA14" class="0">
 <segment>
@@ -19947,11 +20235,6 @@ IRQ 3/4</text>
 <pinref part="JP4" gate="A" pin="1"/>
 <wire x1="91.44" y1="45.72" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
 <label x="91.44" y="50.8" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="JMP1" gate="-0R" pin="1"/>
-<wire x1="91.44" y1="160.02" x2="76.2" y2="160.02" width="0.1524" layer="91"/>
-<label x="78.74" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BA16" class="0">
@@ -20610,6 +20893,40 @@ IRQ 3/4</text>
 <wire x1="99.06" y1="160.02" x2="99.06" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="JMP1" gate="-0R" pin="2"/>
 <wire x1="99.06" y1="157.48" x2="93.98" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="DSR"/>
+<wire x1="220.98" y1="114.3" x2="238.76" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="114.3" x2="238.76" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="JP7" gate="G$1" pin="1"/>
+<wire x1="238.76" y1="121.92" x2="248.92" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="CTS"/>
+<wire x1="220.98" y1="111.76" x2="241.3" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="111.76" x2="241.3" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="JP8" gate="G$1" pin="1"/>
+<wire x1="241.3" y1="116.84" x2="248.92" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="DTR"/>
+<wire x1="220.98" y1="109.22" x2="243.84" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="109.22" x2="243.84" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="JP9" gate="G$1" pin="1"/>
+<wire x1="243.84" y1="111.76" x2="248.92" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="RTS"/>
+<pinref part="JP10" gate="G$1" pin="1"/>
+<wire x1="220.98" y1="106.68" x2="248.92" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
